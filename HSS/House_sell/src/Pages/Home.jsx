@@ -1,7 +1,10 @@
+import Nav from "../Component/Nav";
+
 function Home(){
     return(
         <>
-        <h1>Welcome to HSS</h1>
+            <Nav />
+            <h1>Welcome to HSS</h1>
         </>
     );
 }

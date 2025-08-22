@@ -6,6 +6,8 @@ import Admin_dashboard from './Component/Admin_dashboard';
 import Home from './Pages/Home'
 import House from './Pages/House'
 import Profile from './Pages/Profile'
+import Nav from './Component/Nav';
+import Adim_nav from './Component/Adim_nav';
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
           <Route path="/" element={<Navigate to="/login"/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<SignUp/>} />
-          <Route path="/user_name" element={<User_home/>} />
+          <Route path="/user_home" element={<User_home/>} />
+          <Route path='/nav' element={<Nav/>}/>
+          <Route path='/adim_nav' element={<Adim_nav/>}/>
           <Route path="/admin_dashboard" element={<Admin_dashboard/>} />
           <Route path="/home" element={<Home/>} />
           <Route path="/house" element={<House/>} />
