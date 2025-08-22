@@ -18,7 +18,7 @@ function SignUp(){
             <input type="email" name="email" id="email" /><br />
             <label htmlFor="adress">Adress</label><br />
             <input type="text" name="adress" id="adress" /><br />
-            <label htmlFor="nida">NIDA NUMBER</label><br />
+            <label htmlFor="nida">Nida number</label><br />
             <input type="text" name="nida" id="nida" /><br />
             <label htmlFor="phone">Phone number</label><br />
             <input type="tel" name="phone" id="phone" /><br />
