@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
+import "./login.css";
 
 function Login() {
     return (
+
         <> 
+        <div className="login_header">
+            
             <div className="login">
+                <h1>Welcome</h1>
                 <form action="">
                     <label htmlFor="username">Username</label><br />
                     <input type="text" name="username" id="username" placeholder="Username" /><br />
@@ -15,6 +20,7 @@ function Login() {
                     </p>
                 </form>
             </div>
+        </div>
         </>
     );
 }
