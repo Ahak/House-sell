@@ -3,8 +3,14 @@ import Nav from "./Nav";
 function User_home(){
     return(
         <>
-            <Nav />
-            {/* ...existing user home content... */}
+        <div className="header">
+           <Nav />
+           <div className="headers">
+            <h1>Search Your Next Home</h1>
+           </div>
+
+        </div>
+
         </>
     );
 }
